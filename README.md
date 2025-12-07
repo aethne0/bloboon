@@ -1,3 +1,3 @@
-# Blobboon
+# Bloboon
 
 Embedded blob-storage

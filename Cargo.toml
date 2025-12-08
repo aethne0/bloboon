@@ -4,3 +4,16 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+monke = { git = "https://git.monke.ca/monke/util", branch = "master" }
+bytes = "1.11.0"
+lz4_flex = "0.12.0"
+tracing = "0.1.43"
+xxhash-rust = "0.8.15"
+rkyv = { version = "0.8.12", features = ["big_endian"] }
+io-uring = "0.7.11"
+gdt-cpus = "25.12.0"
+
+[dev-dependencies]
+fastrand = "2.3.0"
+tempfile = "3.23.0"
+tracing-subscriber = { version = "0.3.22", features = ["env-filter"] }

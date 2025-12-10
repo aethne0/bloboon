@@ -62,7 +62,9 @@ fn main() {
         );
     }
 
+    bloboon::wew();
     for h in handles {
         let _ = h.join();
     }
+
 }
